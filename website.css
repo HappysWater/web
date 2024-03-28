@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?pesphk');
+    src: url('../fonts/icomoon.eot?pesphk#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?pesphk') format('truetype'),
+        url('../fonts/icomoon.woff?pesphk') format('woff'),
+        url('../fonts/icomoon.svg?pesphk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.container {
+    width: 100%;
+}
+
+/* 顶部蓝色背景 */
+.head {
+    text-align: center;
+    background-image: url('../image/home-banner@2x.jpg');
+    background-size: cover;
+}
+
+/* 设置logo和按钮距离顶部距离 */
+.top {
+    margin-top: 1%;
+}
+
+/* 登陆注册 相同设置*/
+.box {
+    width: 70px;
+    height: 32px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    line-height: 30px;
+    border-radius: 4px;
+}
+
+/* 登录单独设置 */
+.land {
+    margin-right: 10px;
+}
+
+/* 顶部两行字 */
+.text {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* “云端编程” */
+.text1 {
+    margin-top: 70px;
+}
+
+/* “软件定义一切...” */
+.text2 {
+    font-size: 21px;
+}
+
+/* 马上学习按钮设置 */
+.btn {
+    height: 40px;
+    width: 170px;
+    background-color: white;
+    color: rgb(97, 97, 223);
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+
+/* 内容部分文字通用设置 */
+.text3 {
+    text-align: left;
+}
+
+/* 内容标题通用设置 */
+.tit {
+    font-weight: bold;
+}
+
+/* 图片弹性设置 */
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 移动端图片弹性设置 */
+@media(max-width:767px) {
+    img {
+        width: 90%;
+    }
+}
+
+/* 了解详情按钮设置 */
+.btn1 {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    color: rgb(138, 135, 135);
+    background-color: white;
+    border: 1px solid rgb(138, 135, 135);
+    border-radius: 4px;
+}
+
+/* 第一个了解详情外盒设置（使按钮单独一行，与图片不重叠） */
+.d1 {
+    height: 60px;
+    width: 100%;
+}
+
+/* 文字图标设置 */
+.slogo {
+    font-size: 35px;
+    font-family: 'icomoon';
+    color: white;
+    background-color: rgb(74, 74, 233);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 0 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* 底部三个大盒子弹性布局通用设置 */
+.bbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+/* 移动端弹性设置 */
+@media (max-width:768px) {
+    .bbox {
+        flex-direction: row;
+    }
+
+    .slogo {
+        margin-bottom: 10px;
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+    }
+}
+
+/* 课程特色下方分割线，用div加边框实现 */
+.line {
+    border-top-style: solid;
+    border-color: rgb(139, 139, 139);
+    background-color: transparent;
+    border-width: 1px;
+    height: 50px;
+}
+
+/* “高品质的，多元的...”标题设置 */
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* 马上学习链接设置 */
+.a {
+    float: left;
+    text-decoration: underline;
+    color: rgb(74, 74, 233);
+
+}
+
+/* 马上学习链接的右箭头文字图标设置 */
+.sslogo {
+    font-family: 'icomoon';
+    color: rgb(74, 74, 233);
+    font-size: 16px;
+}
+
+/* 最下方大盒子设置 ，美观处理*/
+.but {
+    margin-bottom: 40px;
+}
+
+/* 商业支持小字 */
+.eco {
+    text-align: center;
+    color: black;
+}
